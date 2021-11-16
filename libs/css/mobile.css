@@ -1,0 +1,94 @@
+@media(max-width:768px){
+    .header{
+        padding: 0 0 10px 0;
+    }
+    .main-nav .nav{
+        display: none;
+    }
+    .main-nav .nav-item{
+        width: 90%;
+        margin: 5px auto !important;
+    }      
+    .main-nav .nav-item .nav-link{
+        text-align: left;
+    }    
+    .menu-tog{
+        font-size: 17px;
+        padding: 0 10px;
+        color: #222 !important;
+    }
+    .search-group{
+        margin-top: 7px 0;
+    }
+    #nav-mr{
+        width:70%;
+        height: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        padding: 15px 0;
+        z-index: 2000;
+        display: none;
+        overflow-y: auto;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    }
+    .banner-container .card img{
+        width: 100%;
+        height: 250px;
+      }
+    .show-mob{
+        display: block !important;
+    }
+    .hide-mob{
+        display: none;
+    }
+}
+@media(max-width: 1024px){
+    .header{
+        padding: 0 0 10px 0;
+    }
+    .main-nav .nav{
+        display: none;
+    }
+    .main-nav .nav-item{
+        width: 90%;
+        margin: 5px auto !important;
+    }      
+    .main-nav .nav-item .nav-link{
+        text-align: left;
+    }    
+    .menu-tog{
+        font-size: 17px;
+        padding: 0 10px;
+        color: #222 !important;
+    }
+    .search-group{
+        margin-top: 7px 0;
+    }
+    #nav-mr{
+        width:70%;
+        height: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        padding: 15px 0;
+        z-index: 2000;
+        display: none;
+        overflow-y: auto;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    }
+    .banner-container .card img{
+        width: 100%;
+        height: 250px;
+    }
+    .show-mob{
+        display: block !important;
+    }
+    .hide-mob{
+        display: none;
+    }
+}
+/*  — 1024px: Small screens, laptops */
+/* 1025px — 1200px: Desktops, large screens */
